@@ -1,0 +1,38 @@
+1. 현재 지원 가능한 언어 및 프레임워크 확인
+```
+PS /home/starwalk7058> az webapp list-runtimes --os-type linux                                                                                                                            
+[
+  "DOTNETCORE:9.0",
+  "DOTNETCORE:8.0",
+  "NODE:22-lts",
+  "NODE:20-lts",
+  "PYTHON:3.13",
+  "PYTHON:3.12",
+  "PYTHON:3.11",
+  "PYTHON:3.10",
+  "PYTHON:3.9",
+  "PHP:8.4",
+  "PHP:8.3",
+  "PHP:8.2",
+  "PHP:8.1",
+  "JAVA:21-java21",
+  "JAVA:17-java17",
+  "JAVA:11-java11",
+  "JAVA:8-jre8",
+  "JBOSSEAP:8-java17",
+  "JBOSSEAP:8-java11",
+  "JBOSSEAP:7-java17",
+  "JBOSSEAP:7-java11",
+  "JBOSSEAP:7-java8",
+  "TOMCAT:11.0-java21",
+  "TOMCAT:11.0-java17",
+  "TOMCAT:11.0-java11",
+  "TOMCAT:10.1-java21",
+  "TOMCAT:10.1-java17",
+  "TOMCAT:10.1-java11",
+  "TOMCAT:9.0-java21",
+  "TOMCAT:9.0-java17",
+  "TOMCAT:9.0-java11",
+  "TOMCAT:9.0-jre8"
+]
+```
