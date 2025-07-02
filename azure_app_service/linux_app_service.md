@@ -1,4 +1,4 @@
-1. 현재 지원 가능한 언어 및 프레임워크 확인
+1. 현재 지원 가능한 언어 및 프레임워크 확인 - Azure Cloud Shell
 ```
 PS /home/starwalk7058> az webapp list-runtimes --os-type linux                                                                                                                            
 [
@@ -36,3 +36,4 @@ PS /home/starwalk7058> az webapp list-runtimes --os-type linux
   "TOMCAT:9.0-jre8"
 ]
 ```
+![image](https://github.com/user-attachments/assets/f3898bbd-d375-477e-8cea-a6a6d4178b2c)
